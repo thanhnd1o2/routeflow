@@ -7,6 +7,7 @@
 pub mod config;
 pub mod ffi;
 pub mod matcher;
+pub mod proxy;
 pub mod rule_engine;
 pub mod types;
 
