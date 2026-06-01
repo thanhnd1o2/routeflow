@@ -100,10 +100,28 @@ class AppState: ObservableObject {
             return
         }
 
-        // UserDefaults is the most reliable storage for sandboxed apps
+        // Save to UserDefaults (for app persistence)
         UserDefaults.standard.set(data, forKey: Self.storageKey)
         UserDefaults.standard.set(defaultInterface, forKey: Self.defaultInterfaceStorageKey)
         print("[RouteFlow] Saved \(rules.count) rules to UserDefaults")
+
+        // Also save as YAML for the proxy binary to read
+        saveYAMLForProxy()
+    }
+
+    /// Save rules as YAML config file that the routeflow-proxy binary can read.
+    private func saveYAMLForProxy() {
+        let yaml = buildYAMLConfig()
+        let appSupport = FileManager.default.urls(for: .applicationSupportDirectory, in: .userDomainMask).first!
+        let dir = appSupport.appendingPathComponent("RouteFlow")
+        try? FileManager.default.createDirectory(at: dir, withIntermediateDirectories: true)
+        let url = dir.appendingPathComponent("rules.yaml")
+        do {
+            try yaml.write(to: url, atomically: true, encoding: .utf8)
+            print("[RouteFlow] Saved YAML config for proxy at \(url.path)")
+        } catch {
+            print("[RouteFlow] Failed to save YAML: \(error)")
+        }
     }
 
     private static func loadRulesFromDisk() -> [RoutingRule]? {
