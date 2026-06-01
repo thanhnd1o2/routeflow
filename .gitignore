@@ -1,0 +1,24 @@
+# Rust
+rust-core/target/
+
+# Xcode
+RouteFlow/RouteFlow.xcodeproj/xcuserdata/
+RouteFlow/RouteFlow.xcodeproj/project.xcworkspace/xcuserdata/
+*.xcuserstate
+
+# macOS
+.DS_Store
+**/.DS_Store
+
+# Build artifacts
+RouteFlow/Libraries/librouteflow_core.a
+
+# Agent Zero
+.a0proj/memory/
+.a0proj/knowledge/
+.a0proj/plugins/
+.a0proj/secrets.env
+
+# Python
+venv/
+__pycache__/

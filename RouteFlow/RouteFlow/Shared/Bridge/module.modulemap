@@ -1,0 +1,5 @@
+module RouteFlowCore {
+    header "routeflow_core.h"
+    link "routeflow_core"
+    export *
+}

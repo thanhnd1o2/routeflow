@@ -1,0 +1,393 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		15E472EF7D23491CB7E03B81 /* DashboardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80517172A8E04D389D06C04F /* DashboardView.swift */; };
+		4EF55C1CD0CF49A5AB4A6AD5 /* AppState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80B856291B864BD0A4D2521D /* AppState.swift */; };
+		A4B50A012FCD385400738317 /* librouteflow_core.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A4B50A002FCD385400738317 /* librouteflow_core.a */; };
+		B4308F3AAAD348E399FC1597 /* RoutingRule.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FB01E2D658A4024B5EF9DD3 /* RoutingRule.swift */; };
+		BB6CC41E92FF4CDC99B75002 /* RouteFlowBridge.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82BE23BDE7134E7A87F140A4 /* RouteFlowBridge.swift */; };
+		D0F927A4FC744EBC9072D86A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA7F55986D3542A998B55C1F /* ContentView.swift */; };
+		D8FC6A5B0FCF496A9FB51F00 /* NetworkInterface.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A34F73E6CE74F59842AE976 /* NetworkInterface.swift */; };
+		D95EE26027A04703A9C1016A /* LogEntry.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F684BB9C999496FB5733BF2 /* LogEntry.swift */; };
+		F0F8F35FC2AF4572A20D063A /* RouteFlowApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD8D77091ACB4122926272E6 /* RouteFlowApp.swift */; };
+		F83A891155214C7D92E3A1ED /* RulesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4D387154E974C5FA2715100 /* RulesView.swift */; };
+		FBE4AF6F50684983AA3FE9D2 /* LogsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47FB4652B02843D0A73B1E96 /* LogsView.swift */; };
+		AA000001AAAA000100000001 /* TrafficView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA000001AAAA000100000010 /* TrafficView.swift */; };
+		AA000001AAAA000100000002 /* ConnectionInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA000001AAAA000100000020 /* ConnectionInfo.swift */; };
+		AA000001AAAA000100000003 /* ConnectionMonitor.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA000001AAAA000100000030 /* ConnectionMonitor.swift */; };
+		AA000001AAAA000100000004 /* ProxyManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA000001AAAA000100000040 /* ProxyManager.swift */; };
+		AA000001AAAA000100000005 /* TrafficEvent.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA000001AAAA000100000060 /* TrafficEvent.swift */; };
+		AA000001AAAA000100000006 /* InterfaceDetector.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA000001AAAA000100000070 /* InterfaceDetector.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1FB01E2D658A4024B5EF9DD3 /* RoutingRule.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoutingRule.swift; sourceTree = "<group>"; };
+		47E67CFF49F341B69AB9472A /* RouteFlow.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RouteFlow.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		47FB4652B02843D0A73B1E96 /* LogsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogsView.swift; sourceTree = "<group>"; };
+		80517172A8E04D389D06C04F /* DashboardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashboardView.swift; sourceTree = "<group>"; };
+		80B856291B864BD0A4D2521D /* AppState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppState.swift; sourceTree = "<group>"; };
+		82BE23BDE7134E7A87F140A4 /* RouteFlowBridge.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RouteFlowBridge.swift; sourceTree = "<group>"; };
+		9A34F73E6CE74F59842AE976 /* NetworkInterface.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkInterface.swift; sourceTree = "<group>"; };
+		9F684BB9C999496FB5733BF2 /* LogEntry.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogEntry.swift; sourceTree = "<group>"; };
+		A4B50A002FCD385400738317 /* librouteflow_core.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = librouteflow_core.a; path = Libraries/librouteflow_core.a; sourceTree = "<group>"; };
+		AD8D77091ACB4122926272E6 /* RouteFlowApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RouteFlowApp.swift; sourceTree = "<group>"; };
+		BA7F55986D3542A998B55C1F /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		C4D387154E974C5FA2715100 /* RulesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RulesView.swift; sourceTree = "<group>"; };
+		AA000001AAAA000100000010 /* TrafficView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrafficView.swift; sourceTree = "<group>"; };
+		AA000001AAAA000100000020 /* ConnectionInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConnectionInfo.swift; sourceTree = "<group>"; };
+		AA000001AAAA000100000030 /* ConnectionMonitor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConnectionMonitor.swift; sourceTree = "<group>"; };
+		AA000001AAAA000100000040 /* ProxyManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProxyManager.swift; sourceTree = "<group>"; };
+		AA000001AAAA000100000060 /* TrafficEvent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrafficEvent.swift; sourceTree = "<group>"; };
+		AA000001AAAA000100000070 /* InterfaceDetector.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InterfaceDetector.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		ED7EAD5189054930AE952283 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A4B50A012FCD385400738317 /* librouteflow_core.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		052502B059784039B3F7541F /* RouteFlow/Shared/Models */ = {
+			isa = PBXGroup;
+			children = (
+				AA000001AAAA000100000020 /* ConnectionInfo.swift */,
+				9F684BB9C999496FB5733BF2 /* LogEntry.swift */,
+				9A34F73E6CE74F59842AE976 /* NetworkInterface.swift */,
+				1FB01E2D658A4024B5EF9DD3 /* RoutingRule.swift */,
+				AA000001AAAA000100000060 /* TrafficEvent.swift */,
+			);
+			path = RouteFlow/Shared/Models;
+			sourceTree = "<group>";
+		};
+		11C520D318A04EB5A8311AC0 /* RouteFlow/Features/Rules */ = {
+			isa = PBXGroup;
+			children = (
+				C4D387154E974C5FA2715100 /* RulesView.swift */,
+			);
+			path = RouteFlow/Features/Rules;
+			sourceTree = "<group>";
+		};
+		56D5CA10330143519A544962 /* Features */ = {
+			isa = PBXGroup;
+			children = (
+				A8600DE11D554DCD8A0413FE /* RouteFlow/Features/Dashboard */,
+				EE17E40F3ABB45C7A8275E12 /* RouteFlow/Features/Logs */,
+				11C520D318A04EB5A8311AC0 /* RouteFlow/Features/Rules */,
+				AA000001AAAA000100000050 /* RouteFlow/Features/Traffic */,
+			);
+			name = Features;
+			sourceTree = "<group>";
+		};
+		AA000001AAAA000100000050 /* RouteFlow/Features/Traffic */ = {
+			isa = PBXGroup;
+			children = (
+				AA000001AAAA000100000010 /* TrafficView.swift */,
+			);
+			path = "RouteFlow/Features/Traffic";
+			sourceTree = "<group>";
+		};
+		822600D6283A4DF3AA4561EE = {
+			isa = PBXGroup;
+			children = (
+				CED817654E284608B8CD6F24 /* RouteFlow/App */,
+				56D5CA10330143519A544962 /* Features */,
+				D23B879322584F9796E89D1A /* Shared */,
+				A4B509FF2FCD385300738317 /* Frameworks */,
+				B444D7C4AB5144318ABA2BE2 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8A4E127664F44F94B1A1E54D /* RouteFlow/Shared/Services */ = {
+			isa = PBXGroup;
+			children = (
+				80B856291B864BD0A4D2521D /* AppState.swift */,
+				AA000001AAAA000100000030 /* ConnectionMonitor.swift */,
+				AA000001AAAA000100000070 /* InterfaceDetector.swift */,
+				AA000001AAAA000100000040 /* ProxyManager.swift */,
+			);
+			path = RouteFlow/Shared/Services;
+			sourceTree = "<group>";
+		};
+		A4B509FF2FCD385300738317 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A4B50A002FCD385400738317 /* librouteflow_core.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A8600DE11D554DCD8A0413FE /* RouteFlow/Features/Dashboard */ = {
+			isa = PBXGroup;
+			children = (
+				80517172A8E04D389D06C04F /* DashboardView.swift */,
+			);
+			path = RouteFlow/Features/Dashboard;
+			sourceTree = "<group>";
+		};
+		B444D7C4AB5144318ABA2BE2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				47E67CFF49F341B69AB9472A /* RouteFlow.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CED817654E284608B8CD6F24 /* RouteFlow/App */ = {
+			isa = PBXGroup;
+			children = (
+				BA7F55986D3542A998B55C1F /* ContentView.swift */,
+				AD8D77091ACB4122926272E6 /* RouteFlowApp.swift */,
+			);
+			path = RouteFlow/App;
+			sourceTree = "<group>";
+		};
+		D23B879322584F9796E89D1A /* Shared */ = {
+			isa = PBXGroup;
+			children = (
+				052502B059784039B3F7541F /* RouteFlow/Shared/Models */,
+				8A4E127664F44F94B1A1E54D /* RouteFlow/Shared/Services */,
+				D2B9ECE7503C4F4FBD9D86FC /* RouteFlow/Shared/Bridge */,
+			);
+			name = Shared;
+			sourceTree = "<group>";
+		};
+		D2B9ECE7503C4F4FBD9D86FC /* RouteFlow/Shared/Bridge */ = {
+			isa = PBXGroup;
+			children = (
+				82BE23BDE7134E7A87F140A4 /* RouteFlowBridge.swift */,
+			);
+			path = RouteFlow/Shared/Bridge;
+			sourceTree = "<group>";
+		};
+		EE17E40F3ABB45C7A8275E12 /* RouteFlow/Features/Logs */ = {
+			isa = PBXGroup;
+			children = (
+				47FB4652B02843D0A73B1E96 /* LogsView.swift */,
+			);
+			path = RouteFlow/Features/Logs;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5B08B63F39F94003A98004F3 /* RouteFlow */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 60AD0D84619A42A6AD8DEB4B /* Build configuration list for PBXNativeTarget "RouteFlow" */;
+			buildPhases = (
+				E2FDF2B1FAD14E14BB34933E /* Sources */,
+				ED7EAD5189054930AE952283 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RouteFlow;
+			productName = RouteFlow;
+			productReference = 47E67CFF49F341B69AB9472A /* RouteFlow.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D812618AB75142E0B0BB2295 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1540;
+				LastUpgradeCheck = 1540;
+			};
+			buildConfigurationList = 9428B77846064D028E7A480B /* Build configuration list for PBXProject "RouteFlow" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 822600D6283A4DF3AA4561EE;
+			productRefGroup = B444D7C4AB5144318ABA2BE2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5B08B63F39F94003A98004F3 /* RouteFlow */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E2FDF2B1FAD14E14BB34933E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D0F927A4FC744EBC9072D86A /* ContentView.swift in Sources */,
+				F0F8F35FC2AF4572A20D063A /* RouteFlowApp.swift in Sources */,
+				15E472EF7D23491CB7E03B81 /* DashboardView.swift in Sources */,
+				FBE4AF6F50684983AA3FE9D2 /* LogsView.swift in Sources */,
+				F83A891155214C7D92E3A1ED /* RulesView.swift in Sources */,
+				BB6CC41E92FF4CDC99B75002 /* RouteFlowBridge.swift in Sources */,
+				D95EE26027A04703A9C1016A /* LogEntry.swift in Sources */,
+				D8FC6A5B0FCF496A9FB51F00 /* NetworkInterface.swift in Sources */,
+				B4308F3AAAD348E399FC1597 /* RoutingRule.swift in Sources */,
+				4EF55C1CD0CF49A5AB4A6AD5 /* AppState.swift in Sources */,
+				AA000001AAAA000100000001 /* TrafficView.swift in Sources */,
+				AA000001AAAA000100000002 /* ConnectionInfo.swift in Sources */,
+				AA000001AAAA000100000003 /* ConnectionMonitor.swift in Sources */,
+				AA000001AAAA000100000004 /* ProxyManager.swift in Sources */,
+				AA000001AAAA000100000005 /* TrafficEvent.swift in Sources */,
+				AA000001AAAA000100000006 /* InterfaceDetector.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		728F72AFD33F4A1CB599C428 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/RouteFlow/Shared/Bridge",
+					"$(PROJECT_DIR)/Libraries",
+				);
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INFOPLIST_KEY_NSMainStoryboardFile = "";
+				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Libraries",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.whateverbest.routeflow;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ROUTEFLOW_FFI";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_INCLUDE_PATHS = "$(PROJECT_DIR)/RouteFlow/Shared/Bridge";
+				SWIFT_OBJC_BRIDGING_HEADER = "RouteFlow-Bridging-Header.h";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		7AE87E39825B4589892B81FB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_OPTIMIZATION_LEVEL = s;
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		AB0E35747D3849FD847D0C11 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) DEBUG";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		E6E4431DAC954F30A619FBB5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/RouteFlow/Shared/Bridge",
+					"$(PROJECT_DIR)/Libraries",
+				);
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INFOPLIST_KEY_NSMainStoryboardFile = "";
+				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Libraries",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.whateverbest.routeflow;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ROUTEFLOW_FFI";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_INCLUDE_PATHS = "$(PROJECT_DIR)/RouteFlow/Shared/Bridge";
+				SWIFT_OBJC_BRIDGING_HEADER = "RouteFlow-Bridging-Header.h";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		60AD0D84619A42A6AD8DEB4B /* Build configuration list for PBXNativeTarget "RouteFlow" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				728F72AFD33F4A1CB599C428 /* Debug */,
+				E6E4431DAC954F30A619FBB5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9428B77846064D028E7A480B /* Build configuration list for PBXProject "RouteFlow" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AB0E35747D3849FD847D0C11 /* Debug */,
+				7AE87E39825B4589892B81FB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D812618AB75142E0B0BB2295 /* Project object */;
+}

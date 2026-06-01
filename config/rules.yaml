@@ -1,0 +1,29 @@
+# RouteFlow Configuration
+# Define network interfaces and domain-based routing rules.
+
+interfaces:
+  - name: wifi
+    type: wifi
+  - name: ethernet
+    type: ethernet
+  - name: vpn
+    type: vpn
+
+# Rules are evaluated in order. First match wins.
+# Format: MATCH_TYPE,pattern,interface
+#
+# Match types:
+#   DOMAIN        - exact domain match
+#   DOMAIN-SUFFIX - matches domain and all subdomains
+#   DOMAIN-KEYWORD - matches if keyword appears anywhere in domain
+
+rules:
+  - DOMAIN-SUFFIX,github.com,wifi
+  - DOMAIN-SUFFIX,githubusercontent.com,wifi
+  - DOMAIN-SUFFIX,company.com,ethernet
+  - DOMAIN-SUFFIX,company.internal,ethernet
+  - DOMAIN,vpn.partner.org,vpn
+  - DOMAIN-KEYWORD,cdn,wifi
+
+# Fallback interface when no rule matches.
+default: wifi
